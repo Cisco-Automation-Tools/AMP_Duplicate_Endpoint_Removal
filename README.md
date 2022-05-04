@@ -12,7 +12,7 @@ This is not an officially supported tool and was developed as a side project, no
 ## Installation
  
 No installation is required.  The tool can be downloaded or cloned from GitHub.  If you'd like to make an EXE, you can do so with [PyInstaller](https://www.pyinstaller.org/):
-> pyinstaller --onefile --noconsole --icon amp-icon.ico .\main_page.py
+> pyinstaller --onefile --console --icon amp-icon.ico .\amp_dup_removal.py
 
 Current executable has been included in the files above for ease of use.
 
