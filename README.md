@@ -23,8 +23,8 @@ To start the tool, ensure that you have an instance of AMP running and run the a
 
 At that point, you will be prompted to enter:
 
-amp_api_key - this is the API key that can be obtained from the AMP console.
-amp_client_id - your client ID to access the AMP console.
+amp_api_key - this is the API key that can be obtained from the AMP console.\
+amp_client_id - your client ID to access the AMP console.\
 amp_group - the AMP group you want to search and remove duplicate endpoints.
 
 The tool identifies duplicates based upon the endpoint hostname.  It will tell you up front how many devices were found in the group and out of those devices, which ones are actually duplicates.  Once it finds a duplicate, it will then check the "last seen" date for each of them.  The duplicate endpoint with the older date will be removed.  You will be prompted each time to confirm the removal operation.  Whether you select "y" or "n", the tool will proceed to check for another duplicate endpoint.
